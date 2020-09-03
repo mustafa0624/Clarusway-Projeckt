@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header-1 {
+    margin: 20px 10px;
+    /* position: absolute; */
+    
+    /* width: 100%; */
+    
+}
+
+.header-left {
+    
+    margin:10px;
+    text-decoration: none;
+    color: rgb(104, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+#header-2{
+    position: absolute;
+    top :0;
+    right: 0;
+}
+.header-right {
+    /* position:relative; */
+    
+    /* left: 1130px; */
+    /* float: right; */
+    
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgb(104, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#appicon {
+    position: relative;
+    top: 7px;
+}
+
+#appicon-img {
+    width: 25px;
+    color: gray;
+}
+
+#sign-in {
+    margin:15px 20px 0px 15px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 7px;
+    width: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+}
+
+.google-logo {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.form {
+    text-align: center;
+    margin-top: 9px;
+    color: red;
+}
+
+#toolbar {
+    
+    
+    padding: 12px;
+    padding-left: 45px;
+    width: 600px;
+    border-radius: 20px;
+    border: 1px solid rgba(223, 230, 233,1.0);
+    outline: none;
+    text-decoration: none;
+    background-image: url(./images/magnifying_glass.jpg);
+    background-repeat: no-repeat ;
+    background-position-x: 18px;
+    background-position-y: 5px;
+    background-size: 30px;
+       
+
+}
+
+#toolbar::-webkit-search-cancel-button {
+    display: none;}
+
+#toolbar:hover{
+    box-shadow: 0px 0px 7px rgba(178, 190, 195,1.0);
+    
+}
+
+
+
+/* 
+#search-icon {
+    width: 28px;
+    position: relative;
+    right: 440px;
+    top: 10px;
+} */
+
+#microphone {
+    width: 15px;
+    position: relative;
+    right: 45px;
+    top: 5px;
+}
+
+.button {
+    margin: 25px;
+    text-decoration: none;
+}
+
+#google-search {
+    margin-right: 5px;
+    padding: 11px;
+    color: gray;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#google-search:hover{
+    box-shadow: 0px 0px 3px  rgba(0, 0, 0, 0.4);
+}
+
+#feeling {
+    padding: 11px;
+    border: none;
+}
+
+#feeling:hover{
+    box-shadow: 0px 0px 3px  rgba(0, 0, 0, 0.4);
+}
+
+#lucky {
+    text-decoration: none;
+    color: black;
+    padding: 11px;
+    color: gray;
+}
+
+.other-lang {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(149, 165, 166, 0.3);
+    height: 89px;
+    width: 100%;
+    
+}
+
+.left-bottom {
+    margin-left: 20px;
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    ;
+}
+
+#right-bottom-position{
+    position: absolute;
+    right: 0;
+    bottom: 12px;
+}
+
+.right-bottom {
+    /* position: relative; */
+    /* left: 1290px; */
+    /* float: right; */
+    margin-right: 20px;
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#Turkey {
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.footer-nav {
+    margin-top: 15px;
+}
+
+hr {
+    color: gray;
+}
