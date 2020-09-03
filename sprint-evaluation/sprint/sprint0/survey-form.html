@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint0</title>
+    <link rel="stylesheet" href="all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <style>
+        * {
+            font-size: 15px;
+        }
+
+        .Head {
+            font-size: 24px;
+            ;
+        }
+
+        .radio {
+            font-size: 16px;
+        }
+        .material-icons{font-size: 100px ;}
+    </style>
+</head>
+
+<body>
+    <div>
+        <i class="material-icons";>done</i>
+        <!-- <p style="font-size: 70px; font-weight:900; margin:-5px"> <span class="fas fa-angle-double-up fa-2x"></span>  Clarusway Survey Form</p> -->
+    </div>
+    <div class="Head" style="margin-top:10px;">Thank you for taking the time help us improve the platform</div>
+    <br>
+    <div>
+        <form action="result.html" method="GET">
+            <div>
+                <label>Name <br><br>
+                    <input type="text" name="Name" placeholder="Enter your Name" required></label><br>
+                <label>Surname <br><br>
+                    <input type="text" name="Surname" placeholder="Enter your Surname" required></label><br>
+                <label>Email <br><br>
+                    <input type="email" name="Email" placeholder="user@clarusway.com" required></label><br>
+            </div>
+            <div>
+                <div class="Head"> Which option best describes your current role?</div><br>
+                <select name="Current-Role" id="">
+                    <option value="" disabled selected>Select current role</option>
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Full Time Job">Full Time Job</option>
+                    <option value="Part Time Job">Part Time Job</option>
+                    <option value="Full Time Learner">Full Time Learner</option>
+                    <option value="Prefer not to Say ">Prefer not to Say</option>
+
+                </select>
+            </div>
+
+            <div>
+                <p class="Head">Woold you recommend Clarusway a fried?</p>
+                <label class="radio"><input type="radio" name="Reccomend" id="" value="Definitely,Yes"
+                        checked>Definitely,Yes</label><br><br>
+                <label class="radio"><input type="radio" name="Reccomend" id="" value="Maybe">Maybe</label><br><br>
+                <label class="radio"><input type="radio" name="Reccomend" id="" value="Not Sure">Not
+                    Sure</label><br><br>
+                <label class="radio"><input type="radio" name="Reccomend" id=""
+                        value="Definitly,No">Definitly,No</label><br><br>
+            </div>
+            <div>
+                <p class="Head">What is your favorite feature of Clarusway?</p>
+                <select name="Favorite Feature">
+                    <option value="Select an Options" selected disabled>Select an Option</option>
+                    <option value="Courses">Courses</option>
+                    <option value="Projects">Projescts</option>
+                    <option value="Community">Community</option>
+                    <option value="Mentors">Mentors</option>
+                </select>
+
+            </div>
+            <div>
+                <p class="Head">What would you like to see improved? (Check all that apply)</p><br>
+                <label class="radio"><input type="checkbox" value="Front-end- Projects" name="Improve1">Front-end-
+                    Projects </label><br><br>
+                <label class="radio"><input type="checkbox" value="Back-end- Projects" name="Improve2">Back-end-
+                    Projects </label><br><br>
+                <label class="radio"><input type="checkbox" value="Data Science" name="Improve3">Data Science
+                </label><br><br>
+                <label class="radio"><input type="checkbox" value="Additional Courses" name="Improve4">Additional
+                    Courses </label><br><br>
+
+            </div>
+
+
+            <div>
+                <p class="Head">Any comments or suggestions?</p>
+                <textarea name="Comment" id="" cols="25" rows="5"
+                    placeholder="Enter your comment here.. Thanks for your comments"></textarea>
+                <input type="submit" value="Submit">
+            </div>
+
+
+
+        </form>
+
+        
+
+</body>
+
+</html>
