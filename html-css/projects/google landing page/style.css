@@ -20,6 +20,10 @@
     font-size: 13px;
 }
 
+.header-left:hover{
+    text-decoration: underline;
+}
+
 
 #header-2{
     position: absolute;
@@ -39,16 +43,27 @@
     font-size: 13px;
 }
 
+.header-right:hover{
+    text-decoration: underline;
+}
+
 #appicon {
     position: relative;
     top: 7px;
-}
-
-#appicon-img {
-    width: 25px;
     color: gray;
 }
 
+
+
+#appicon-img {
+    width: 25px;
+    color: rgba(149, 165, 166, 0.6);
+    opacity: 0.5;
+}
+
+#appicon-img:hover{
+    opacity: 1;
+}
 #sign-in {
     margin:15px 20px 0px 15px;
     background-color: dodgerblue;
@@ -58,7 +73,11 @@
     padding: 7px;
     width: 65px;
     font-family: Arial, Helvetica, sans-serif;
-    ;
+    
+}
+
+#sign-in:hover{
+    text-decoration: none;
 }
 
 .google-logo {
@@ -159,7 +178,7 @@
 footer {
     position: absolute;
     bottom: 0;
-    background-color: rgba(149, 165, 166, 0.3);
+    background-color: rgba(149, 165, 166, 0.2);
     height: 89px;
     width: 100%;
     
@@ -174,11 +193,16 @@ footer {
     ;
 }
 
+.left-bottom:hover{
+    text-decoration: underline;
+}
+
 #right-bottom-position{
     position: absolute;
     right: 0;
     bottom: 12px;
 }
+
 
 .right-bottom {
     /* position: relative; */
@@ -189,14 +213,20 @@ footer {
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    
 }
 
+.right-bottom:hover{
+    text-decoration: underline;
+}
 #Turkey {
     padding: 12px;
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
     margin-left: 10px;
     font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    
 }
 
 .footer-nav {
