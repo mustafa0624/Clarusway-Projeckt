@@ -12,6 +12,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.7;
+    text-align: center;
 }
 
 #img1>div {
@@ -56,6 +57,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
+    background-position: center;
 }
 
 #img2 div {
@@ -66,6 +68,7 @@
     top: 250px;
     letter-spacing: 6px;
     font-size: 30px;
+    text-align: center;
 }
 
 #section2>h2 {
@@ -97,6 +100,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.7;
+    background-position: center;
+    background-position: center;
 }
 
 #img3>div {
@@ -107,6 +112,7 @@
     letter-spacing: 6px;
     font-size: 30px;
     top: 250px;
+    text-align: center;
 }
 
 #section3 {
@@ -136,6 +142,7 @@
     background-repeat: no-repeat;
     height: 1000px;
     opacity: 0.7;
+    background-position: center;
 }
 
 #img4>div {
@@ -149,11 +156,15 @@
     font-size: 30px;
     padding: 15px;
     letter-spacing: 7px;
+    text-align: center;
 }
 
-@media screen and (max-width:860px) {
+@media screen and (max-width:970px) {
+
+  
     #section1>div {
         padding: 20px 40px;
+        
     }
     #section2>div {
         padding: 20px 40px;
@@ -165,4 +176,3 @@
     }
 }
 
-@media screen and (max-width:375px) {}
