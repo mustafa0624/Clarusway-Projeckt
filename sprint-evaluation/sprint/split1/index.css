@@ -1,0 +1,77 @@
+header {
+    width: fit-content;
+    margin: 40px auto;
+}
+
+header>div, h1 {
+    width: fit-content;
+    margin: 70px 120px 30px;
+    display: inline-block;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header1 {
+    margin-bottom: 0;
+}
+
+#header2 {
+    /* position: relative; */
+    bottom: 20px;
+    left: 180px;
+}
+
+#header2-span {
+    position: relative;
+    font-size: 21px;
+    bottom: 25px;
+}
+
+#contanier {
+  
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+#section1 {
+    
+    width: 1500px;
+    display: inline-flex;
+    margin:  auto;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  
+}
+
+#section1>div>span {
+    vertical-align: top;
+    writing-mode: vertical-lr;
+    margin-left: 10px;
+}
+
+.box {
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.box img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.box2, .box5 {
+    position: relative;
+    top: 50px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 15px;
+}
