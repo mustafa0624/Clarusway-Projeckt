@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -48,38 +49,6 @@ header .right-header a:hover:not(#nav1) {
   color: #e9e6e6;
   text-shadow: 0px 0px 2px;
 }
-
-main {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-main .main-page {
-  background-image: url(./img/showcase.jpg);
-  height: 400px;
-  background-position: top;
-  background-size: cover;
-  color: white;
-}
-
-main .main-page div {
-  font-size: 55px;
-  font-weight: bold;
-}
-
-main .main-page p {
-  font-size: 20px;
-}
-
-main .main-page div,
-main .main-page p {
-  width: fit-content;
-  margin: auto;
-  line-height: 70px;
-  position: relative;
-  top: 110px;
-}
-
 .subscribe {
   background-color: #35424a;
   height: 100px;
@@ -120,47 +89,65 @@ main .main-page p {
   cursor: pointer;
 }
 
-.flex-boxes {
-  border-bottom: 3px solid #b83b8e;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  padding-bottom: 20px;
+.section2 {
+//   border: 3px solid;
+   margin: auto 200px;
+   display: flex;
+   height:340px;
+   margin-bottom: 300px;
+
+  #div1 {
+    // border: 1px solid;
+    float: left;
+    width: 190%;
+    margin-right: 50px;
+    line-height: 22px;
+    
+    #p2{
+        background-color: #35424a;
+        color: white;
+        font-size: 15px;
+        height: 100px;
+        text-align: left;
+        padding: 20px;
+        
+    }
+    
+  }
+
+  #div2{
+    margin-top: 20px;;
+      border: 1px solid;
+      width: 80%;
+      background-color: #35424a;
+      height: 150px;
+      color: white;
+      padding: 15px;
+      font-size: 15px;
+      line-height: 22px;
+      
+      
+  }
+
+
+ 
 }
 
-.flex-boxes .box {
-  padding: 10px;
-  margin: 10px;
-  right: 50px;
-  flex-basis: 500px;
-  text-align: center;
-  flex-shrink: 4;
-}
-
-.flex-boxes img {
-  margin: 10px auto;
-  margin: auto;
-  width: 90px;
-}
 
 footer {
-  background-color: #fffaf0;
-  text-align: center;
-  height: 140px;
-}
-
-footer div {
-  position: relative;
-  top: 50px;
-  line-height: 0px;
-}
-
-footer div p img {
-  width: 200px;
-}
-
-@media screen and (max-width: 1130px) {
-  .flex-boxes {
-    flex-wrap: wrap;
+    background-color: #fffaf0;
+    text-align: center;
+    height: 140px;
+    border-top: 3px solid #b83b8e;
+    
   }
-}
+  
+  footer div {
+    position: relative;
+    top: 50px;
+    line-height: 0px;
+  }
+  
+  footer div p img {
+    width: 200px;
+  }
