@@ -77,9 +77,8 @@ header {
   cursor: pointer;
 }
 
-
 .contanier {
-    clear: both;
+  clear: both;
   margin-left: 150px;
   width: 50%;
   padding: 10px;
@@ -113,8 +112,8 @@ header {
     width: 100%;
     height: 30px;
   }
-  textarea{
-      width: 100%;
+  textarea {
+    width: 100%;
   }
   #submit {
     width: 60px;
@@ -145,4 +144,32 @@ footer {
       width: 200px;
     }
   }
+}
+
+@media screen and (max-width: 1284px) {
+  .get-quote-form {
+    width: 30%;
+  }
+  .contanier {
+    margin-left: auto;
+    div{
+        padding:5px
+    }
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .get-quote-form {
+    // margin-left:22px;
+    // width: 43%;
+    // float: left;
+    // width: 30px;
+  }
+}
+
+@media screen and (max-width:1080px){
+    .get-quote-form{
+        margin-top: 140px;
+    }
+
 }

@@ -121,4 +121,16 @@ footer {
     footer div p img {
       width: 200px; }
 
+@media screen and (max-width: 1284px) {
+  .get-quote-form {
+    width: 30%; }
+
+  .contanier {
+    margin-left: auto; }
+    .contanier div {
+      padding: 5px; } }
+@media screen and (max-width: 1080px) {
+  .get-quote-form {
+    margin-top: 140px; } }
+
 /*# sourceMappingURL=services.css.map */
