@@ -55,7 +55,7 @@ main {
 }
 
 main .main-page {
-  background-image: url(../img/showcase.jpg);
+  background-image: url(./img/showcase.jpg);
   height: 400px;
   background-position: top;
   background-size: cover;
