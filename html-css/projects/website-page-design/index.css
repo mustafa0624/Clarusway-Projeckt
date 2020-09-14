@@ -17,11 +17,12 @@ header .left-header {
   top: 30px;
   left: 150px;
   font-size: 2em;
-  font-weight: bold;
+  
 }
 
 header .right-header {
   float: right;
+  
 }
 
 header .right-header ul li {
@@ -38,6 +39,7 @@ header .right-header ul li {
 header .right-header a {
   text-decoration: none;
   color: white;
+  font-weight: 500;
 }
 
 header .right-header a #nav1:hover {
