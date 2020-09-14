@@ -1,3 +1,6 @@
+* {
+  border: 1px solid;
+}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -16,16 +19,21 @@ header {
     left: 150px;
     font-size: 2em;
     font-weight: bold;
+    width: fit-content;
   }
   .right-header {
     float: right;
+    position: relative;
+    margin-right: 35px;
+    right: 190px;
+    top: 25px;
 
     ul li {
       float: left;
-      margin-right: 35px;
-      position: relative;
-      right: 190px;
-      top: 25px;
+      margin-left: 20px;
+
+     
+    
       list-style-type: none;
       font-size: 16px;
       font-weight: 500;
@@ -82,7 +90,7 @@ header {
   margin-left: 150px;
   width: 50%;
   padding: 10px;
-  height: 650px;
+  height: 700px;
   padding-left: 25px;
   float: left;
 
@@ -149,27 +157,67 @@ footer {
 @media screen and (max-width: 1284px) {
   .get-quote-form {
     width: 30%;
+    margin-right: 20px;
   }
   .contanier {
     margin-left: auto;
-    div{
-        padding:5px
+    div {
+      padding: 5px;
     }
   }
 }
 
 @media screen and (max-width: 1170px) {
   .get-quote-form {
-    // margin-left:22px;
-    // width: 43%;
-    // float: left;
-    // width: 30px;
+    margin-left: 0px;
+    width: 33%;
   }
 }
 
-@media screen and (max-width:1080px){
-    .get-quote-form{
-        margin-top: 140px;
-    }
+@media screen and (max-width: 1080px) {
+  
 
+   .right-header {
+   clear: both;;
+   
+  }
+
+  .subscribe #left {
+    margin: auto;
+  }
+  .subscribe #right {
+ clear: left;
+  }
 }
+
+@media screen and (max-width: 751px) {
+  .get-quote-form {
+    // clear: both;
+    float: left;
+    margin-left: 25px;
+    width: 65%;
+  }
+  .contanier div {
+    width: 150%;
+  }
+  .right-header {
+    // position: relative;
+    // left: 250px;
+    // bottom: 30px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .right-header {
+   position: relative;
+   left: 30px;
+  }
+   .subscribe #right{
+     position: relative;
+     left: 30px;
+   } 
+    
+
+  }
+    
+  
+ 
