@@ -112,3 +112,9 @@ p {
         margin:-10px;
     }
 }
+
+@media screen and (max-width:255px){
+    #section1 > div {
+        margin: 0px;
+    }
+}
