@@ -1,0 +1,75 @@
+main {
+  border: 1px solid;
+}
+form {
+  border: 1px solid;
+  line-height: 27px;
+  width: 70%;
+  margin: auto;
+  .box-div {
+    border: 1px solid;
+    width: 40%;
+    border-radius: 6px;
+  }
+  .material-icons {
+    position: relative;
+    top: 5px;
+  }
+  input {
+  }
+
+  .box {
+    width: 60%;
+    height: 33px;
+    outline: none;
+    border: 1px solid;
+  }
+
+  #country-div {
+    border: 1px solid;
+    width: auto;
+    display: inline-block;
+    float: left;
+
+    #country {
+      height: 33px;
+      outline: none;
+      width: 55%;
+      margin-left: 2px;
+      // border: none;
+    }
+  }
+  #post-code-div {
+    border: 1px solid;
+    // width: auto;
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+
+    #post-code {
+      width: 45%;
+      height: 33px;
+    }
+  }
+}
+#Produkts {
+  border: 1px solid;
+  width: fit-content;
+  box-sizing: border-box;
+
+  img {
+    width: 200px;
+  }
+
+  #backbag1 {
+    display: flex;
+    #backbag-button {
+      justify-content: space-around;
+     
+    }
+  }
+  #backbag2 {
+    display: flex;
+  }
+}

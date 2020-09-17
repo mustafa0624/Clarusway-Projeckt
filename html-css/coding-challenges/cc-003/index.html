@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Checkout</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>Checkout</h1>
+        </header>
+
+        <main>
+            <form action="#">
+                <h3>Contact information</h3>
+                
+                <div class="box-div"><label for="email">Email </label><br>
+                    <i class="material-icons" aria-hidden="true">mail</i>
+                    <input type="email" class="box box1" placeholder="Enter your email" id="email">
+                </div>
+                <br>
+
+                
+                <div class="box-div"> <label for="phone">Phone</label><br> <i class="material-icons">phone</i>
+                    <input type="tel" name="Phone" class="box box2" id="phone" placeholder="Enter your Phone">
+                </div>
+                <br>
+
+                <h3>Shipping address</h3>
+               
+                <div class="box-div">   <label for="fullName">Full name</label><br><i class="material-icons">person_pin</i>
+                    <input type="text" name="Full Name" class="box box3" id="fullName"
+                        placeholder="Enter your postal code...">
+                </div><br>
+
+               
+                <div class="box-div">  <label for="address">Address </label><br> <i class="material-icons">home</i>
+                    <input type="text" name="Address" class="box box4" id="adress" placeholder="Enter your address...">
+                </div><br>
+
+                
+                <div class="box-div"> <label for="city">City </label><br> <i class="material-icons">add_business</i>
+                    <input type="text" name="City" class="box box5" id="city" placeholder="Enter your City...">
+                </div><br>
+
+                <div id="country-div"><label for="country" id="country-label"> Country </label> <br>
+                    <i class="material-icons">public</i>
+                    <select name="Country" id="country">
+                        <option value="Turkey" selected>Turkey</option>
+                        <option value="Germany">Germany</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="UK">Uk</option>
+                    </select>
+                </div>
+                <br>
+
+                <div id="post-code-div"> <label for="post-code">Post Code </label> <br>
+
+                    <i class="material-icons">inbox</i>
+                    <input id="post-code" type="Postal Code" placeholder="Enter your postal code...">
+                </div><br>
+
+                <label>
+                    <input type="checkbox" name="" id=""> <code>See this information next time</code>
+                </label>
+
+            </form>
+
+            <div id="Produkts">
+                <div id="backbag1"> <img src="./IMG/photo1.png" alt="Vintage Backbag">
+                    <div id="backbag-inf">
+                        <h3> Vintage Backbag</h3>
+                        <p> $54.99 <del>94.99</del></p>
+                    
+
+                    <div id="backbag-button">
+                        <button aria-hidden="true"> <i class="material-icons">remove</i> </button>  1
+                        <button> <i class="material-icons">add</i></button>
+
+                    </div>
+                </div>
+
+                </div>
+
+
+                <div id="backbag2"> <img src="./IMG/photo2.png" alt="Vintage Backbag">
+                    <div id="backbag-inf">
+                        <h3> Vintage Backbag</h3>
+                        <p> $54.99 <del>94.99</del></p>
+                    </div>
+
+                    <div id="backbag-button">
+                        <button aria-hidden="true"> <i class="material-icons">remove</i> </button> <p> 1</p>
+                        <button> <i class="material-icons">add</i></button>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </main>
+    </body>
+
+    </html>
+</body>
+
+</html>
