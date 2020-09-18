@@ -5,145 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://kit.fontawesome.com/5e6490b565.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Checkout</title>
-        <link rel="stylesheet" href="index.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
-
-    <body>
-        <header>
-            <h1>Checkout</h1>
-        </header>
-
-        <main>
+    <div id="container">
+        <div class="boxes box1">
+            <h2>Checkout</h2>
+        </div>
+        <div class="boxes box2">
             <form action="#">
-                <h3>Contact information</h3>
-
-                <div class="box-div"><label for="email">Email </label><br>
-                    <div class="ic-div">
-                        <i class="material-icons" aria-hidden="true">mail</i>
-                        <input type="email" class="box box1" placeholder="Enter your email" id="email">
+                <h3>Contract Information</h3>
+                <div class="divs Email">
+                    <label for="email">Email</label><br>
+                    <div class="inside-div">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <input type="email" name="Email" id="email" placeholder="Enter your Email">
                     </div>
                 </div>
-                <br>
 
-
-                <div class="box-div"> <label for="phone">Phone</label><br>
-                    <div class="ic-div"> <i class="material-icons">phone</i>
-                        <input type="tel" name="Phone" class="box box2" id="phone" placeholder="Enter your Phone">
+                <div class="divs Phone">
+                    <label for="phone">Phone</label><br>
+                    <div class="inside-div">
+                        <i class="fas fa-phone-alt"></i>
+                        <input type="tel" name="TelNumber" id="phone" placeholder="Enter your Phone">
                     </div>
                 </div>
-                <br>
+                <br><br>
 
                 <h3>Shipping address</h3>
 
-                <div class="box-div"> <label for="fullName">Full name</label><br>
-                    <div class="ic-div"><i class="material-icons">person_pin</i>
-                        <input type="text" name="Full Name" class="box box3" id="fullName"
-                            placeholder="Enter your postal code...">
+                <div class="divs FullName">
+                    <label for="full-name">Full name</label><br>
+                    <div class="inside-div">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="FullName" id="full-name" placeholder="Enter your Full Name">
                     </div>
-                </div><br>
+                </div>
 
-
-                <div class="box-div"> <label for="address">Address </label>
-                    <div class="ic-div"> <i class="material-icons">home</i>
-                        <input type="text" name="Address" class="box box4" id="adress"
-                            placeholder="Enter your address...">
+                <div class="divs adress">
+                    <label for="adress">Adress</label><br>
+                    <div class="inside-div">
+                        <i class="fas fa-home"></i>
+                        <input type="text" name="Adress" id="adress" placeholder="Enter your Adress">
                     </div>
-                </div><br>
+                </div>
 
-
-                <div class="box-div"> <label for="city">City </label>
-                    <div class="ic-div"> <i class="material-icons">add_business</i>
-                        <input type="text" name="City" class="box box5" id="city" placeholder="Enter your City...">
+                <div class="divs city">
+                    <label for="city">City</label><br>
+                    <div class="inside-div">
+                        <i class="fa fa-city"></i>
+                        <input type="text" name="City" id="city" placeholder="Enter your city">
                     </div>
-                </div><br>
+                </div>
 
-                <div id="country-div"><label for="country" id="country-label"> Country </label> <br>
-                    <div class="ic-div">
-                        <i class="material-icons">public</i>
+                <div class="country">
+                    <label for="country">Country</label><br>
+                    <div class="country-inside">
+                        <i class="fas fa-globe-europe"></i>
                         <select name="Country" id="country">
-                            <option value="Turkey" selected>Turkey</option>
-                            <option value="Germany">Germany</option>
+                            <option value="Turkey">Turkey</option>
                             <option value="USA">USA</option>
                             <option value="Canada">Canada</option>
                             <option value="UK">Uk</option>
                         </select>
                     </div>
                 </div>
-                <br>
 
-                <div id="post-code-div"> <label for="post-code">Post Code </label> <br>
-                    <div class="ic-div">
-
-                        <i class="material-icons">inbox</i>
-                        <input id="post-code" type="Postal Code" placeholder="Enter your postal code...">
+                <div class="post-code">
+                    <label for="postcode">Post Code</label><br>
+                    <div class="post-code-inside">
+                        <i class="fas fa-mail-bulk"></i>
+                        <input type="text" name="Post Code" id="postcode" placeholder="Enter your postal code">
                     </div>
-                </div><br>
+                </div>
+                <br><br>
+                <div>
+                    <input type="checkbox" name="Information" id="Information">
+                    <label for="Information"> <code> See this information next time</code></label>
+                </div>
 
-                <label>
-                    <input type="checkbox" name="" id=""> <code>See this information next time</code>
-                </label>
+
+
+
 
             </form>
 
-            <div id="Produkts">
-                <div id="backbag1"> <img src="./IMG/photo1.png" alt="Vintage Backbag">
-                    <div id="backbag-inf">
-                        <h3> Vintage Backbag</h3>
-                        <p><span style="color: rgba(231, 105, 2, 0.932);"> $54.99</span> <del>94.99</del></p>
-
-
-                        <div id="backbag-button">
-                            <button aria-hidden="true" id="button1"> <i class="material-icons">remove</i> </button> 1
-                            <button id="button2"> <i class="material-icons">add</i></button>
-
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div id="backbag2"> <img src="./IMG/photo2.png" alt="Vintage Backbag">
-                    <div id="backbag-inf">
-                        <h3> Vintage Backbag</h3>
-                        <p> <span style="color: rgba(231, 105, 2, 0.932);">$54.99 </span> <del>94.99</del></p>
-
-
-
-                        <div id="backbag-button">
-                            <button id="button1" aria-hidden="true"> <i class="material-icons">remove</i> </button>1
-                            <button id="button2"> <i class="material-icons">add</i></button>
-
-                        </div>
-                    </div>
-
-                </div>
-                <br><br>
-
-                <div id="shipping">
-                    <div id="number1">Shipping </div>
-                    <div id="number2">$19</div>
-                </div>
-<br><br>
-                <div id="total">
-                    <div id="number3">Total </div>
-                    <div id="number4" class="total-euro">$148.98</div>
-                </div>
-            </div>
-        </main>
-    </body>
-
-    </html>
+        </div>
+        <div class="boxes box3">3</div>
+        <!-- <div class="boxes box3">4</div>
+        <div class="boxes box4">5</div>
+        <div class="boxes box4">6</div> -->
+    </div>
 </body>
 
 </html>

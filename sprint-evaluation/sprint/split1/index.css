@@ -83,7 +83,7 @@ p {
 }
 @media screen and (max-width:1205px){
     .box2, .box5 {
-        /* position: relative; */
+         position: relative;
         top: 0px;
     }
 }
@@ -124,4 +124,4 @@ p {
     #section1 > div {
         margin: 0px;
     }
-}
+} 

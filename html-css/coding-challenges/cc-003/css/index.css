@@ -1,0 +1,78 @@
+#container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto 50%;
+  margin: auto; }
+  #container .boxes {
+    border: 1px solid;
+    padding: 15px; }
+  #container .box1 {
+    grid-row: 1/3;
+    grid-column: 1/4; }
+    #container .box1 h2 {
+      width: fit-content;
+      margin: auto; }
+  #container .box2 {
+    grid-column: 1/3;
+    height: 50rem; }
+  #container form {
+    border: 1px solid;
+    line-height: 1.7rem;
+    padding: 10px;
+    margin-left: 50px; }
+    #container form .divs {
+      height: 3.2rem;
+      margin-top: 15px; }
+      #container form .divs input {
+        width: 20rem;
+        height: 1.5rem;
+        border: none;
+        outline: none; }
+      #container form .divs i {
+        position: relative;
+        top: 2px;
+        left: 3px;
+        color: gray; }
+    #container form .inside-div {
+      border: 1px solid gray;
+      width: 25rem;
+      border-radius: 5px; }
+    #container form .country {
+      display: inline-block;
+      margin-top: 30px; }
+      #container form .country .country-inside {
+        border: 1px solid;
+        width: 8rem;
+        height: 1.8rem;
+        border-radius: 5px; }
+        #container form .country .country-inside i {
+          position: relative;
+          left: 3px;
+          top: 1px;
+          color: gray; }
+        #container form .country .country-inside select {
+          height: 1.8rem;
+          width: 5.5rem;
+          padding-left: 10px;
+          border: none;
+          outline: none; }
+    #container form .post-code {
+      display: inline-block; }
+      #container form .post-code .post-code-inside {
+        border: 1px solid;
+        width: 16.5rem;
+        height: 1.8rem;
+        border-radius: 5px; }
+        #container form .post-code .post-code-inside i {
+          position: relative;
+          left: 3px;
+          top: 1px;
+          color: gray; }
+        #container form .post-code .post-code-inside input {
+          height: 1.4rem;
+          width: 10rem;
+          padding-left: 10px;
+          border: none;
+          outline: none; }
+
+/*# sourceMappingURL=index.css.map */

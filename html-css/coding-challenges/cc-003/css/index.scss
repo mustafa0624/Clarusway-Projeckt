@@ -1,0 +1,107 @@
+#container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto 50%;
+  margin: auto;
+
+  .boxes {
+    border: 1px solid;
+    padding: 15px;
+  }
+
+  .box1 {
+    grid-row: 1/3;
+    grid-column: 1/4;
+    h2 {
+      width: fit-content;
+      margin: auto;
+    }
+  }
+  .box2 {
+    grid-column: 1/3;
+    height: 50rem;
+  }
+  // .box3{
+
+  // }
+
+  form {
+    border: 1px solid;
+    line-height: 1.7rem;
+    padding: 10px;
+    margin-left: 50px;
+    .divs {
+      height: 3.2rem;
+      margin-top: 15px;
+      input {
+        width: 20rem;
+        height: 1.5rem;
+        border: none;
+        outline: none;
+      }
+      i {
+        position: relative;
+        top: 2px;
+        left: 3px;
+        color: gray;
+      }
+    }
+
+    .inside-div {
+      border: 1px solid gray;
+      width: 25rem;
+      border-radius: 5px;
+    }
+
+    .country {
+
+        display: inline-block;
+        margin-top: 30px;;
+      .country-inside {
+        border: 1px solid;
+        width: 8rem;
+        height: 1.8rem;
+        border-radius: 5px;
+        i {
+          position: relative;
+          left: 3px;
+          top: 1px;
+          color: gray;
+        }
+        select {
+          height: 1.8rem;
+          width: 5.5rem;
+          padding-left: 10px;
+          border: none;
+          outline: none;
+          
+        }
+      }
+    }
+
+    .post-code {
+        display: inline-block;
+
+      .post-code-inside {
+        border: 1px solid;
+        width: 16.5rem;
+        height: 1.8rem;
+        border-radius: 5px;
+        i {
+          position: relative;
+          left: 3px;
+          top: 1px;
+          color: gray;
+        }
+        input{
+            height: 1.4rem;
+            width: 10rem;
+            padding-left: 10px;
+            border: none;
+            outline: none;
+
+        }
+      }
+    }
+  }
+}
