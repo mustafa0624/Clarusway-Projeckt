@@ -1,5 +1,6 @@
 * {
-  border: 1px solid;
+  margin: 0px;
+  // border: 1px solid;
 }
 body {
   margin: 0;
@@ -7,6 +8,7 @@ body {
 }
 header {
   background-color: #35424a;
+  width: 100%;
   color: white;
   height: 100px;
   border-bottom: 3px solid #a9508b;
@@ -19,28 +21,33 @@ header {
     left: 150px;
     font-size: 2em;
     font-weight: bold;
-    width: fit-content;
   }
   .right-header {
     float: right;
-    position: relative;
-    margin-right: 35px;
-    right: 190px;
-    top: 25px;
+    // margin: 40px 240px 0px 0px;
+
+    
 
     ul li {
       float: left;
-      margin-left: 20px;
-
-     
-    
+      margin-right: 35px;
+      position: relative;
+      right: 190px;
+      top: 40px;
       list-style-type: none;
       font-size: 16px;
-      font-weight: 500;
+      font-weight: bold;
 
       a {
-        color: white;
         text-decoration: none;
+      color: white;
+      #nav1:hover {
+        color: white;
+      }
+      &:hover {
+        color: rgb(233, 230, 230);
+        text-shadow: 0px 0px 2px;
+      }
       }
     }
   }
@@ -174,50 +181,70 @@ footer {
   }
 }
 
-@media screen and (max-width: 1080px) {
-  
-
-   .right-header {
-   clear: both;;
-   
-  }
-
-  .subscribe #left {
-    margin: auto;
-  }
-  .subscribe #right {
- clear: left;
-  }
-}
-
-@media screen and (max-width: 751px) {
-  .get-quote-form {
-    // clear: both;
-    float: left;
-    margin-left: 25px;
-    width: 65%;
-  }
-  .contanier div {
-    width: 150%;
+@media screen and (max-width: 1064px){
+  .left-header{
+   font-size: 5px;
+   margin-left: 2px;
   }
   .right-header {
+    // float: left;
     // position: relative;
-    // left: 250px;
-    // bottom: 30px;
+    top: 140px;
   }
 }
-@media screen and (max-width: 680px) {
-  .right-header {
-   position: relative;
-   left: 30px;
-  }
-   .subscribe #right{
-     position: relative;
-     left: 30px;
-   } 
-    
 
-  }
+
+// @media screen and (max-width: 1080px) {
+//   // .left-header{
+
+//   // }
+
+//   .subscribe #left {
+//     margin: auto;
+//   }
+//   .subscribe #right {
+//     clear: left;
+//   }
+// }
+
+// @media screen and (max-width: 751px) {
+//   .get-quote-form {
+//     // clear: both;
+//     float: left;
+//     margin-left: 25px;
+//     width: 65%;
+//   }
+//   .contanier{
+//     height: 550px;
+//   }
+//   .contanier div {
+//     width: 150%;
     
-  
- 
+//   }
+//   // .right-header {
+//   //   position: relative;
+//   //   left: 250px;
+//   //   bottom: 30px;
+//   // }
+// }
+// @media screen and (max-width: 680px) {
+//   .right-header {
+//     //  position: absolute;
+//     left: 0px;
+//   }
+//   .subscribe #right {
+//     position: relative;
+//     left: 5px;
+//   }
+// }
+
+// @media screen and (max-width: 538px) {
+//   .left-header {
+//     display: block;
+//     position: relative;
+//     right: 30px;
+//   }
+//   // .right-header {
+//   //   position:fixed;
+//   // }
+// }
