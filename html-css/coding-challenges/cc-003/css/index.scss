@@ -1,7 +1,7 @@
 #container {
   width: 80%;
   display: grid;
-  grid-template-columns: auto auto 50%;
+  grid-template-columns: auto auto 55%;
   margin: auto;
 
   .boxes {
@@ -29,9 +29,9 @@
     border: 1px solid;
     line-height: 1.7rem;
     padding: 10px;
-    margin-left: 50px;
+    margin-left: 1rem;
     .divs {
-      height: 3.2rem;
+      height: 3.5rem;
       margin-top: 15px;
       input {
         width: 20rem;
@@ -49,7 +49,7 @@
 
     .inside-div {
       border: 1px solid gray;
-      width: 25rem;
+      width: 29rem;
       border-radius: 5px;
     }
 
@@ -62,6 +62,8 @@
         width: 8rem;
         height: 1.8rem;
         border-radius: 5px;
+        color: gray;
+        margin-right: 15px;
         i {
           position: relative;
           left: 3px;
@@ -84,7 +86,7 @@
 
       .post-code-inside {
         border: 1px solid;
-        width: 16.5rem;
+        width: 19rem;
         height: 1.8rem;
         border-radius: 5px;
         i {
@@ -102,6 +104,26 @@
 
         }
       }
+    }
+    .submit{
+       
+        input{
+            width: 4.2rem;
+            height: 2.2rem;
+            background-color: salmon;
+            color: white;
+            border: none;
+            width: fit-content;
+            position: relative;
+            left: 27rem;
+            outline: none;
+            &:hover{
+                background-color: rgb(248, 76, 56);
+                cursor: pointer;
+                outline: none;
+                
+            }
+        }
     }
   }
 }

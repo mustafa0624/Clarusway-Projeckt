@@ -1,7 +1,7 @@
 #container {
   width: 80%;
   display: grid;
-  grid-template-columns: auto auto 50%;
+  grid-template-columns: auto auto 55%;
   margin: auto; }
   #container .boxes {
     border: 1px solid;
@@ -19,9 +19,9 @@
     border: 1px solid;
     line-height: 1.7rem;
     padding: 10px;
-    margin-left: 50px; }
+    margin-left: 1rem; }
     #container form .divs {
-      height: 3.2rem;
+      height: 3.5rem;
       margin-top: 15px; }
       #container form .divs input {
         width: 20rem;
@@ -35,7 +35,7 @@
         color: gray; }
     #container form .inside-div {
       border: 1px solid gray;
-      width: 25rem;
+      width: 29rem;
       border-radius: 5px; }
     #container form .country {
       display: inline-block;
@@ -44,7 +44,9 @@
         border: 1px solid;
         width: 8rem;
         height: 1.8rem;
-        border-radius: 5px; }
+        border-radius: 5px;
+        color: gray;
+        margin-right: 15px; }
         #container form .country .country-inside i {
           position: relative;
           left: 3px;
@@ -60,7 +62,7 @@
       display: inline-block; }
       #container form .post-code .post-code-inside {
         border: 1px solid;
-        width: 16.5rem;
+        width: 19rem;
         height: 1.8rem;
         border-radius: 5px; }
         #container form .post-code .post-code-inside i {
@@ -74,5 +76,19 @@
           padding-left: 10px;
           border: none;
           outline: none; }
+    #container form .submit input {
+      width: 4.2rem;
+      height: 2.2rem;
+      background-color: salmon;
+      color: white;
+      border: none;
+      width: fit-content;
+      position: relative;
+      left: 27rem;
+      outline: none; }
+      #container form .submit input:hover {
+        background-color: #f84c38;
+        cursor: pointer;
+        outline: none; }
 
 /*# sourceMappingURL=index.css.map */
