@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
 }
 header {
   background-color: #35424a;
@@ -182,9 +183,10 @@ footer {
 }
 
 @media screen and (max-width: 1064px){
-  .left-header{
-   font-size: 5px;
-   margin-left: 2px;
+  header .left-header div{
+    position: relative;
+    bottom: 302px;
+   
   }
   .right-header {
     // float: left;
@@ -195,9 +197,14 @@ footer {
 
 
 // @media screen and (max-width: 1080px) {
-//   // .left-header{
+//    .left-header > p{
+//     font-size: 10px;    
 
-//   // }
+//    }
+//    .right-header ul{
+//      position: relative;
+//      top: 30px;
+//    }
 
 //   .subscribe #left {
 //     margin: auto;
