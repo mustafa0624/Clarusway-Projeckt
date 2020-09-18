@@ -53,7 +53,8 @@ form {
     form #post-code-div #post-code {
       width: 80%;
       height: 30px;
-      border: none; }
+      border: none;
+      outline: none; }
 
 #Produkts {
   border-radius: 15px;
@@ -115,5 +116,20 @@ form {
     margin-left: 30px; }
   #Produkts #backbag2 {
     display: flex; }
+  #Produkts #shipping {
+    border-bottom: 1px solid gray; }
+    #Produkts #shipping #number1 {
+      float: left; }
+    #Produkts #shipping #number2 {
+      float: right;
+      display: block;
+      clear: right; }
+  #Produkts #total {
+    border-bottom: 1px solid gray; }
+    #Produkts #total #number3 {
+      clear: left;
+      float: left; }
+    #Produkts #total #number4 {
+      float: right; }
 
 /*# sourceMappingURL=index.css.map */

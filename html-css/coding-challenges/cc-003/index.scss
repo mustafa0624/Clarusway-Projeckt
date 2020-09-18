@@ -4,10 +4,8 @@ main {
 }
 
 header {
-  
-  width:600px;
-  margin: auto;  
-
+  width: 600px;
+  margin: auto;
 }
 form {
   // border: 1px solid;
@@ -82,6 +80,7 @@ form {
       width: 80%;
       height: 30px;
       border: none;
+      outline: none;
       //   position: relative;
       //   padding-left: 30px;
       //   bottom: 30px;
@@ -174,5 +173,30 @@ form {
   }
   #backbag2 {
     display: flex;
+  }
+
+  #shipping {
+    border-bottom: 1px solid gray;
+
+    #number1 {
+      float: left;
+    }
+    #number2 {
+      float: right;
+      display: block;
+      clear: right;
+    }
+  }
+
+  #total {
+    border-bottom: 1px solid gray;
+
+    #number3 {
+      clear: left;
+      float: left;
+    }
+    #number4 {
+      float: right;
+    }
   }
 }
