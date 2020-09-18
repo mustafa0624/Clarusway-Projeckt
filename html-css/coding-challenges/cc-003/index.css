@@ -2,7 +2,7 @@ main {
   display: flex; }
 
 header {
-  width: fit-content;
+  width: 600px;
   margin: auto; }
 
 form {
@@ -14,7 +14,8 @@ form {
     width: 400px; }
     form .box-div .ic-div {
       border: 1px solid;
-      border-radius: 5px; }
+      border-radius: 5px;
+      color: gray; }
   form .material-icons {
     position: relative;
     top: 5px;
