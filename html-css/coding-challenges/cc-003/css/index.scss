@@ -1,11 +1,15 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
 #container {
   width: 80%;
   display: grid;
   grid-template-columns: auto auto 55%;
   margin: auto;
 
+
   .boxes {
-    border: 1px solid;
+    // border: 1px solid;
     padding: 15px;
   }
 
@@ -25,8 +29,9 @@
 
   // }
 
-  form {
-    border: 1px solid;
+  form { 
+    
+    // border: 1px solid;
     line-height: 1.7rem;
     padding: 10px;
     margin-left: 1rem;
@@ -34,7 +39,7 @@
       height: 3.5rem;
       margin-top: 15px;
       input {
-        width: 20rem;
+        width: 80%;
         height: 1.5rem;
         border: none;
         outline: none;
@@ -49,7 +54,7 @@
 
     .inside-div {
       border: 1px solid gray;
-      width: 29rem;
+      width:80%;
       border-radius: 5px;
     }
 
@@ -126,4 +131,128 @@
         }
     }
   }
+}
+
+.produkts{
+  background-color:#eeeeee ;
+  width: 25rem;
+  border-radius: 10px;
+  height: 450px;
+}
+
+#produkt1{
+  // border: 1px solid;
+  display: flex;
+padding: 10px;
+  #produkt1-ic-div{
+    // border: 1px solid red;
+    padding: 10px;
+    width: 13rem;
+
+    .buttons{
+      border: 1px solid gray;
+      display: flex;
+      width: 80px;
+      height: 30px;
+      border-radius: 5px;
+      
+      #plus-button{
+        
+        position: relative;
+        top: 5px;
+        left:20px;
+      }
+      #minus-button{
+        
+        position: relative;
+        top: 5px;
+        left:2px;
+      }
+      p{
+        position: relative;
+        left: 11px;
+        bottom: 10px;
+        
+      }
+    }
+  }
+  
+}
+
+#produkt2{
+  // border: 1px solid;
+  display: flex;
+padding: 10px;
+
+  #produkt2-ic-div{
+    // border: 1px solid red;
+    padding: 10px;
+    width: 13rem;
+
+    .buttons{
+      border: 1px solid gray;
+      display: flex;
+      width: 80px;
+      height: 30px;
+      border-radius: 5px;
+      
+      #plus-button{
+        
+        position: relative;
+        top: 5px;
+        left:20px;
+      }
+      #minus-button{
+        
+        position: relative;
+        top: 5px;
+        left:2px;
+      }
+      p{
+        position: relative;
+        left: 11px;
+        bottom: 10px;
+        
+      }
+    }
+  }
+  
+}
+
+#fis{
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#shipping{
+  border-bottom: 1px solid gray;
+  margin: 2px 20px;
+  font-size: 1.2rem;
+  
+  
+  #p1{
+    
+    
+    float: left;
+  }
+  #p2{
+    // padding-top: -10px;
+    float: right;
+  }
+}
+
+#total{
+  padding-top: 10px;
+  clear: both;
+  border-bottom: 1px solid gray;
+  margin: 2px 20px;
+  font-size: 1.2rem;
+  .p1{
+    clear: left;
+    float: left;
+  }
+  .p2{
+    float: right;
+  }
+
 }
