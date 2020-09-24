@@ -1,13 +1,7 @@
 var counter = 0
-let number = Math.ceil(Math.random()*100);
-// console.log(typeof number)
-
-document.getElementById("button").addEventListener("click",findNumber)
-document.getElementById("input").addEventListener("keyup",Enter)
 
 function findNumber() {
-    
-    
+    let number = 66;
     let guess = document.getElementById("input").value
 
     if (isNaN(guess)) {
@@ -27,17 +21,12 @@ function findNumber() {
         document.getElementById("result").innerHTML = "CONGRATULATIONS !!!"
     }
 
-    counter++
-    document.getElementById("test-number").innerHTML="girdiginiz hak" + " " + counter
 
 }
 
-function Enter(a){
-    if (a.keyCode===13){
-        a.preventDefault() 
-        document.getElementById("button").click()
-    }
+function testNumber() {
+counter++;
+    document.getElementById("test-number").innerHTML = "This is your test number " + counter
 
 
 }
-
