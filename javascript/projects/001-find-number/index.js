@@ -28,7 +28,7 @@ function findNumber() {
     }
 
     counter++
-    document.getElementById("test-number").innerHTML="girdiginiz hak" + " " + counter
+    document.getElementById("test-number").innerHTML="This is your test number" + " " + counter
 
 }
 
