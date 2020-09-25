@@ -13,7 +13,25 @@ function findNumber() {
 
     let guess = Number(document.getElementById("input").value)
 
-    if (isNaN(guess)) {
+    if (guess === number) {
+        // document.getElementById("result").innerHTML = "CONGRATULATIONS !!!"
+        alert("CONGRATULATIONS !!!")
+        const nextGame = confirm("do you wanna play again?")
+        if (nextGame == true) {
+            number = Math.floor((Math.random() * 100));
+            counter = 0;
+            document.getElementById("input").value = "";
+            document.getElementById("test-number").innerHTML = "";
+            document.getElementById("result").innerHTML = "";
+
+        }
+        else {
+            document.getElementById("test-number").innerHTML = "";
+            document.getElementById("result").innerHTML = "Thank you for the Game ";
+
+        }
+    }
+    else if (isNaN(guess)) {
         document.getElementById("result").innerHTML = "Please enter only Numbers"
     } else if (guess > 100) {
         document.getElementById("result").innerHTML = " Plese Maximum to 100"
@@ -26,25 +44,9 @@ function findNumber() {
         document.getElementById("result").innerHTML = "I am thinking about lower number"
     }
 
-    else if (guess === number) {
-        // document.getElementById("result").innerHTML = "CONGRATULATIONS !!!"
-        alert("CONGRATULATIONS !!!")
-        const nextGame = confirm("do you wanna play again?")
-        if (nextGame == true) {
-            number = Math.floor((Math.random() * 100) + 1);
-            counter = 0; document.getElementById("input").innerHTML = " ";
-            document.getElementById("test-number").innerHTML = " ";
-            document.getElementById("result").innerHTML = " ";
 
-        }
-        else{
-            document.getElementById("test-number").innerHTML = "";
-            document.getElementById("result").innerHTML = "Thank you for the Game ";
-            
-        }
-    }
 
-    
+
     document.getElementById("test-number").innerHTML = "This is your test number" + " " + counter
 
 }
