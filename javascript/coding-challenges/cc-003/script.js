@@ -14,7 +14,9 @@ function myFunc(){
     let newInput = myInput.value.split("");
     // newInput.reverse()
 
-    document.querySelector("#div1").innerHTML =  newInput.reverse().join("")
+    document.querySelector("#div1").innerHTML =  newInput.reverse().join("");
+    myInput.value = ""
+    myInput.focus()
 
     
 }
