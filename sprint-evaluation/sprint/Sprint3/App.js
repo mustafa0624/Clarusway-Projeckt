@@ -36,8 +36,12 @@ const App = () => {
       </View>
 
       <View style={styles.title2}>
-        <Text style={styles.blackBox}> Black Box </Text>
-        <Text style={styles.brownBox}> Brown Box </Text>
+        <View style={{ flex: 2 }}>
+          <Text style={styles.blackBox}> Black Box </Text>
+        </View>
+        <View style={{ flex: 1, transform: [{ rotate: "-90deg" }] }}>
+          <Text style={styles.brownBox}> Brown Box </Text>
+        </View>
 
       </View>
 
@@ -64,13 +68,15 @@ const styles = StyleSheet.create({
     backgroundColor: "red",
 
 
+
   },
   title2: {
     backgroundColor: "pink",
     flex: 2,
-    flexDirection:"row",
-    justifyContent:"space-evenly",
-    alignItems:"center"
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+
   },
   grayView: {
     flex: 1,
@@ -99,20 +105,31 @@ const styles = StyleSheet.create({
     width: 90,
     textAlign: "center",
   },
-  blackBox:{
-    backgroundColor:"black",
-    color:"white",
-    height:380,
-    width:190,
-    textAlign:"center",
-    textAlignVertical:"center",
-    borderRadius:16
-    
+  blackBox: {
+    backgroundColor: "black",
+    color: "white",
+    height: 380,
+    width: 190,
+    textAlign: "center",
+    textAlignVertical: "center",
+    borderRadius: 16,
+    alignSelf: "center"
+
+
   },
-  brownBox:{
-    backgroundColor:"brown",
-    color:"white"
-  }
+  brownBox: {
+    backgroundColor: "brown",
+    color: "white",
+    width: 380,
+    height: 60,
+    // transform: [{ rotate: "-90deg" }],
+    textAlign: "center",
+    textAlignVertical: "center",
+    borderRadius: 30,
+    alignSelf: "center"
+    // display:"flex"
+  },
+
 
 })
 
