@@ -1,0 +1,43 @@
+body{
+     align-items: center;
+    justify-content: center; 
+     }
+#component{
+   
+    margin: auto;
+    text-align: center;
+ 
+    line-height: 40px;
+
+}
+input{
+    height: 50px;
+    width: 700px;
+    border: 2px dotted;
+    border-radius: 20px;
+}
+button{
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-top: 50px;
+   
+}
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+
+}
+
+#result{
+    border: 1px solid gray;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 40px;
+}
+
